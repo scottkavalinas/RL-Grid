@@ -16,6 +16,7 @@ def insertionSort(arr):
       arr[j + 1] = arr[j] 
       j -= 1
     arr[j + 1] = key 
+
 class agent():
 
   def __init__(self,horiz_limit,vert_limit):
@@ -123,7 +124,7 @@ vert_limit=4
 paths_taken = []
 iterations = 0
 
-for i in range(0,10):
+for i in range(0,100):
   test = agent(horiz_limit,vert_limit)
   test.form_grid()
   test.start_pos()
